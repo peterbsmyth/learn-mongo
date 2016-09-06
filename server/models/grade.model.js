@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const GradeSchema = new Schema ({
   date: { type: Object },
-  grade: { type: String },
+  grade: { type: Date },
   score: { type: Number }
 }, {
   _id: false

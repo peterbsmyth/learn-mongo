@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const Grade = require('./grade.model');
-const Address = require('./address.model');
+const Address = require('./address.model').schema;
 
 const RestaurantSchema = new Schema ({
-  address: { type: Address },
+  address: Address,
   borough: { type: String },
   cuisine: { type: String },
   grades: [Grade],
