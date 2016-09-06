@@ -1,0 +1,32 @@
+{
+  "name": "learning_mongo",
+  "version": "1.0.0",
+  "description": "Learning MongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbsmith2/learning_mongo.git"
+  },
+  "keywords": [
+    "mongodb",
+    "practice",
+    "mongo",
+    "practice",
+    "learn",
+    "exercises",
+    "test"
+  ],
+  "author": "Peter B Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterbsmith2/learning_mongo/issues"
+  },
+  "homepage": "https://github.com/peterbsmith2/learning_mongo#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0"
+  }
+}
