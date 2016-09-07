@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const GradeSchema = new Schema ({
-  date: { type: Object },
-  grade: { type: Date },
+  date: { type: Date },
+  grade: { type: String },
   score: { type: Number }
 }, {
   _id: false

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const Grade = require('./grade.model');
+const Grade = require('./grade.model').schema;
 const Address = require('./address.model').schema;
 
 const RestaurantSchema = new Schema ({
