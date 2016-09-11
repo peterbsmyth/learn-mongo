@@ -5,7 +5,7 @@ const Restaurant = mongoose.model('Restaurant');
 // overwrite mongoose's deprecated Promise with built-in ES6 Promise
 mongoose.Promise = global.Promise;
 
-// export the get function which dynamically gets the appropriate callback
+// export the `get` function which dynamically gets the appropriate callback
 // function for the exercise number specificed in the params
 exports.get = function(req, res) {
   exercises[req.params.id](req, res);
