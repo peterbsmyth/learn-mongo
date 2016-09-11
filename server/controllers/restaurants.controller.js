@@ -108,7 +108,7 @@ exercises[9] = function(req, res) {
 exercises[10] = function(req, res) {
 
   Restaurant
-    .find( {'address.coords': { $lt: -95.754168 }} )
+    .find( {'address.coord.0': { $lt: -95.754168 }} )
     .exec(function(err, restaurants) {
       if (err) res.status(500).json(err);
       res.json(restaurants);
@@ -399,7 +399,7 @@ exercises[29] = function(req, res) {
 
   Restaurant
     .find({
-      'address.coord': { $type: 'double' }
+      'address.coord.0': { $type: 1 }
     })
     .exec(function(err, restaurants) {
       if (err) res.status(500).json(err);
