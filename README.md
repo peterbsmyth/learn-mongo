@@ -52,7 +52,7 @@ After completing the above:
 2. Notice the structure of the document and read through the directions
 3. Begin writing queries
   
-## Checking your answers
+## Checking Your Answers
 This repository includes test code which you can find in the `test` folder. When you've successfully completed the queries for an exercise, the tests will pass. Until you have, they will fail. To run the tests you must have mocha installed globally.
 ```bash
 npm i -g mocha
