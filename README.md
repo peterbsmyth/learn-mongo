@@ -51,6 +51,13 @@ After completing the above:
 1. open `controllers/restaurant.controller.js` in your favorite text-editor  
 2. Notice the structure of the document and read through the directions  
 3. Begin writing queries  
+
+## Running the Server
+```bash
+node index.js
+```
+  
+then test in browser: `http://localhost:3000/api/1`
   
 ## Checking Your Answers
 This repository includes test code which you can find in the `test` folder. When you've successfully completed the queries for an exercise, the tests will pass. Until you have, they will fail. To run the tests you must have mocha installed globally.
