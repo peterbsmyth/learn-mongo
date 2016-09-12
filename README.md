@@ -48,7 +48,7 @@ npm i
 ```
 
 After completing the above:  
-1. open `controllers/restaurant.controller.js` in your favorite text-editor  
+1. open `server/controllers/restaurant.controller.js` in your favorite text-editor  
 2. Notice the structure of the document and read through the directions  
 3. Begin writing queries  
 
