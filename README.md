@@ -47,10 +47,10 @@ git checkout origin/test
 npm i
 ```
 
-After completing the above:
+After completing the above:  
 1. open `controllers/restaurant.controller.js` in your favorite text-editor  
-2. Notice the structure of the document and read through the directions
-3. Begin writing queries
+2. Notice the structure of the document and read through the directions  
+3. Begin writing queries  
   
 ## Checking Your Answers
 This repository includes test code which you can find in the `test` folder. When you've successfully completed the queries for an exercise, the tests will pass. Until you have, they will fail. To run the tests you must have mocha installed globally.
@@ -66,6 +66,11 @@ npm test
 **NOTE: Some of the queries return 25,000+ results and therefore take up to 15 seconds to respond.\* You may want to write a few queries at a time to reduce the amount of time you're waiting for the test suite to run.**
 
 *This repository uses a free database hosted at [modulus](http://www.modulus.io). We are not worried about performance for the sake of this repository, only learning queries. It would be unwise in most situations to write queries which return 25,000+ results. For your education, one way that developers reduce the size of responses is called pagination. This means that a request may only return up to 100 results. It will include in those results an endpoint to query to return the next 100 results. Exercise 7 reveals how this works.
+
+## Reference Documentation
+
+[Mongoose](http://mongoosejs.com/docs/guide.html)  
+[MongoDb](https://docs.mongodb.com/manual/tutorial/query-documents/)  
 
 ## Stuck? Have a question?
 
