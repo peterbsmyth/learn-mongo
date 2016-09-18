@@ -22,7 +22,7 @@ describe('Exercise', function() {
   });
 
   describe('1', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -43,7 +43,7 @@ describe('Exercise', function() {
   });
 
   describe('2', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -75,7 +75,7 @@ describe('Exercise', function() {
   });
 
   describe('3', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -108,7 +108,7 @@ describe('Exercise', function() {
   });
 
   describe('4', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -141,7 +141,7 @@ describe('Exercise', function() {
   });
 
   describe('5', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -162,7 +162,7 @@ describe('Exercise', function() {
   });
 
   describe('6', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -182,7 +182,7 @@ describe('Exercise', function() {
 
     it('should return only restaurants in the Bronx borough', function() {
 
-      for (let i = 0; i < parsedBody.length; i++) {
+      for (var i = 0; i < parsedBody.length; i++) {
         assert.equal(parsedBody[i].borough, 'Bronx');
       }
 
@@ -191,7 +191,7 @@ describe('Exercise', function() {
   });
 
   describe('7', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -211,7 +211,7 @@ describe('Exercise', function() {
 
     it('should return only restaurants in the Bronx borough', function() {
 
-      for (let i = 0; i < parsedBody.length; i++) {
+      for (var i = 0; i < parsedBody.length; i++) {
         assert.equal(parsedBody[i].borough, 'Bronx');
       }
 
@@ -226,7 +226,7 @@ describe('Exercise', function() {
   });
 
   describe('8', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -247,7 +247,7 @@ describe('Exercise', function() {
   });
 
   describe('9', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -267,11 +267,11 @@ describe('Exercise', function() {
 
     // it('should only have grades above 80 and below 100', function() {
     //
-    //   for (let i = 0; i < parsedBody.length; i++) {
+    //   for (var i = 0; i < parsedBody.length; i++) {
     //
-    //     let scores = [];
+    //     var scores = [];
     //
-    //     for(let j = 0; j < parsedBody[i].grades.length; j++) {
+    //     for(var j = 0; j < parsedBody[i].grades.length; j++) {
     //       scores.push(parsedBody[i].grades[j].score);
     //       assert.isAbove(parsedBody[i].grades[j].score, 80);
     //       assert.isBelow(parsedBody[i].grades[j].score, 100);
@@ -284,7 +284,7 @@ describe('Exercise', function() {
   });
 
   describe('10', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -306,7 +306,7 @@ describe('Exercise', function() {
   });
 
   describe('11', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -328,7 +328,7 @@ describe('Exercise', function() {
   });
 
   describe('12', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -350,7 +350,7 @@ describe('Exercise', function() {
   });
 
   describe('13', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -372,7 +372,7 @@ describe('Exercise', function() {
   });
 
   describe('14', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -394,7 +394,7 @@ describe('Exercise', function() {
   });
 
   describe('15', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -415,7 +415,7 @@ describe('Exercise', function() {
 
   });
   describe('16', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -436,7 +436,7 @@ describe('Exercise', function() {
 
   });
   describe('17', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -457,7 +457,7 @@ describe('Exercise', function() {
 
   });
   describe('18', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -478,7 +478,7 @@ describe('Exercise', function() {
 
   });
   describe('19', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -499,7 +499,7 @@ describe('Exercise', function() {
 
   });
   describe('20', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -520,7 +520,7 @@ describe('Exercise', function() {
 
   });
   describe('21', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -541,7 +541,7 @@ describe('Exercise', function() {
 
   });
   describe('22', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -562,7 +562,7 @@ describe('Exercise', function() {
 
   });
   describe('23', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -583,7 +583,7 @@ describe('Exercise', function() {
 
   });
   describe('24', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -604,7 +604,7 @@ describe('Exercise', function() {
 
   });
   describe('25', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -625,7 +625,7 @@ describe('Exercise', function() {
 
   });
   describe('26', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -646,7 +646,7 @@ describe('Exercise', function() {
 
   });
   describe('27', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -667,7 +667,7 @@ describe('Exercise', function() {
 
   });
   describe('28', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -688,7 +688,7 @@ describe('Exercise', function() {
 
   });
   describe('29', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -709,7 +709,7 @@ describe('Exercise', function() {
 
   });
   describe('30', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
@@ -730,7 +730,7 @@ describe('Exercise', function() {
 
   });
   describe('31', function() {
-    let parsedBody;
+    var parsedBody;
 
     before(function(done) {
       this.timeout(30000);
