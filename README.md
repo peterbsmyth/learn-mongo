@@ -3,7 +3,7 @@ This repository is set up to help you learn to query MongoDb collections. You wi
 
 ## Intro to MongoDb
 
-[MongoDb](http://www.mongodb.com/) is the leading NoSQL Database today. It is a document store. It supports SQL-like aggregation. It is used by the biggest companies on the planet but it is also quick and easy for solo developers to get started with.  
+[MongoDb](http://www.mongodb.com/) is the leading NoSQL Database today. You'll find it supports SQL-like aggregation is used by the big companies like Facebook and Expedia. Though used in enterprise it is also quick and easy for solo developers to get started with.  
   
 MongoDb stores data in JSON-like structures. This makes it a top-choice in the JavaScript world because it is so familiar and it fits hand-in-glove with the rest of a Javascript developer's toolkit. For example a database entry for a restaurant might look like:  
 
@@ -29,9 +29,10 @@ MongoDb stores data in JSON-like structures. This makes it a top-choice in the J
 }
 ```
 
-See how it's just JSON? Cool!  
   
-The example document above might live in a collection simply called `Restaurants`. In the same database might be another collection called `Coffee Shops`. A collection in MongoDb is analagous to a table in a SQL database. A collection is a collection of related documents.  
+The example document above might live in a collection simply called `Restaurants`. In the same database might be another collection called `Coffee Shops`. 
+
+> A collection in MongoDb is analagous to a table in a SQL database. A collection is a collection of related documents.  
 
 
 
@@ -74,7 +75,7 @@ npm test
 
 *This repository uses a free database hosted at [modulus](http://www.modulus.io). We are not worried about performance for the sake of this repository, only learning queries. It would be unwise in most situations to write queries which return 25,000+ results. For your education, one way that developers reduce the size of responses is called pagination. This means that a request may only return up to 100 results. It will include in those results an endpoint to query to return the next 100 results. Exercise 7 reveals how this works.
 
-## Reference Documentation
+## Reference Documentation to help with queries
 
 [Mongoose](http://mongoosejs.com/docs/guide.html)  
 [MongoDb](https://docs.mongodb.com/manual/tutorial/query-documents/)  
