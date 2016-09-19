@@ -1,5 +1,6 @@
 const assert   = require('chai').assert;
 const port     = 3000;
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 const express  = require('../config/express');
 const mongoose = require('../config/mongoose');
