@@ -11,6 +11,18 @@ const db = mongoose();
 const app = express();
 const server = require('http').createServer(app);
 
+// TIP: Stop slow tests by adding ".skip" after a describe statement to skip
+// it entirely. This can be done for as many tests as you want
+//
+// I recommend you add skip to all of the examples in the beginning and
+// remove the skip statements as you write code. By doing this you will see
+// output of the tests more easily.
+//
+// EXAMPLE USAGE:
+// describe.skip('1', function() {
+//
+// });
+
 
 describe('Exercise', function() {
 
