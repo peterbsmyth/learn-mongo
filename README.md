@@ -1,4 +1,4 @@
-# :orange_book: :open_book: Learning MongoDb
+# :orange_book: :open_book: Learn MongoDb
 This repository is set up to help you learn to query MongoDb collections. You will go through 32 exercises. For each exercise you will query a collection of Restaurants to return the desired data. The exercises can be found here at [w3resource.com](http://www.w3resource.com/mongodb-exercises/).
 
 ## Intro to MongoDb
