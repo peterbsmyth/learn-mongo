@@ -51,7 +51,7 @@ npm i
 After completing the above:  
 1. open `server/controllers/restaurant.controller.js` in your favorite text-editor  
 2. Notice the structure of the document and read through the directions  
-3. Begin writing queries and use the [reference documentation](##Reference Documentation to help with queries)
+3. Begin writing queries and use the [reference documentation](#reference-documentation-to-help-with-queries)
 
 ## Running the Server
 ```bash
