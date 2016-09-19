@@ -179,5 +179,3 @@ exercises[31] = function(req, res) {
 exercises[32] = function(req, res) {
 
 }
-
-
