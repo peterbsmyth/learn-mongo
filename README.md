@@ -3,7 +3,7 @@ This repository is set up to help you learn to query MongoDb collections. You wi
 
 ## Intro to MongoDb
 
-[MongoDb](http://www.mongodb.com/) is the leading NoSQL Database today. You'll find it supports SQL-like aggregation is used by the big companies like Facebook and Expedia. Though used in enterprise it is also quick and easy for solo developers to get started with.  
+[MongoDb](http://www.mongodb.com/) is the leading NoSQL Database today. You'll find it supports SQL-like aggregation and is used by the big companies like Facebook and Expedia. Though used in enterprise-grade applications, it is also quick and easy for solo developers to get started with.  
   
 MongoDb stores data in JSON-like structures. This makes it a top-choice in the JavaScript world because it is so familiar and it fits hand-in-glove with the rest of a Javascript developer's toolkit. For example a database entry for a restaurant might look like:  
 
