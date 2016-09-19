@@ -160,6 +160,13 @@ describe('Exercise', function() {
 
     });
 
+    it('should return only restaurants in the Bronx', function() {
+
+      var num = Math.floor((Math.random() * 100) + 1);
+      assert.equal(parsedBody[num].borough, 'Bronx');
+
+    });
+
   });
 
   describe('6', function() {
@@ -181,7 +188,7 @@ describe('Exercise', function() {
 
     });
 
-    it('should return only restaurants in the Bronx borough', function() {
+    it('should return only restaurants in the Bronx', function() {
 
       for (var i = 0; i < parsedBody.length; i++) {
         assert.equal(parsedBody[i].borough, 'Bronx');
