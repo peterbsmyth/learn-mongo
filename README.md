@@ -44,14 +44,14 @@ In your terminal execute the following commands:
 ```bash
 git clone https://github.com/peterbsmith2/learning_mongo.git
 cd learning_mongo
-git checkout origin/test
+git checkout exercise
 npm i
 ```
 
 After completing the above:  
 1. open `server/controllers/restaurant.controller.js` in your favorite text-editor  
 2. Notice the structure of the document and read through the directions  
-3. Begin writing queries  
+3. Begin writing queries and use the [reference documentation](##Reference Documentation to help with queries)
 
 ## Running the Server
 ```bash
@@ -75,7 +75,7 @@ npm test
 
 *This repository uses a free database hosted at [modulus](http://www.modulus.io). We are not worried about performance for the sake of this repository, only learning queries. It would be unwise in most situations to write queries which return 25,000+ results. (One way that developers reduce the size of responses is called pagination. This means that a request may only return up to 100 results. It will include in those results an endpoint to query to return the next 100 results. Exercise 7 reveals how this works.)
 
-## Reference Documentation to help with queries
+##Reference Documentation to help with queries
 
 [Mongoose](http://mongoosejs.com/docs/guide.html)  
 [MongoDb](https://docs.mongodb.com/manual/tutorial/query-documents/)  
