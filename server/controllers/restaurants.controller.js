@@ -11,58 +11,68 @@ let exercises = {};
 
 exercises[1] = function(req, res) {
 
-  Restaurant.find({}, function(err, restaurants) {
-    if (err) res.status(500).json(err);
-    res.json(restaurants);
-  });
+  Restaurant.find({})
+    .exec(function(err, restaurants) {
+      if (err) res.status(500).json(err);
+      res.json(restaurants);
+    });
 
 }
 
 exercises[2] = function(req, res) {
 
-  Restaurant.find({}, 'restaurant_id name borough cuisine',  function(err, restaurants) {
-    if (err) res.status(500).json(err);
-    res.json(restaurants);
-  });
+  Restaurant.find({})
+    .select('restaurant_id name borough cuisine')
+    .exec(function(err, restaurants) {
+      if (err) res.status(500).json(err);
+      res.json(restaurants);
+    });
 
 }
 
 exercises[3] = function(req, res) {
 
-  Restaurant.find({}, '-_id restaurant_id name borough cuisine',  function(err, restaurants) {
-    if (err) res.status(500).json(err);
-    res.json(restaurants);
-  });
+  Restaurant.find({})
+    .select('-_id restaurant_id name borough cuisine')
+    .exec(function(err, restaurants) {
+      if (err) res.status(500).json(err);
+      res.json(restaurants);
+    });
 
 }
 
 
 exercises[4] = function(req, res) {
 
-  Restaurant.find({}, '-_id restaurant_id name borough address.zipcode',  function(err, restaurants) {
-    if (err) res.status(500).json(err);
-    res.json(restaurants);
-  });
+  Restaurant.find({})
+    .select('-_id restaurant_id name borough address.zipcode')
+    .exec(function(err, restaurants) {
+      if (err) res.status(500).json(err);
+      res.json(restaurants);
+    });
 
 }
 
 
 exercises[5] = function(req, res) {
 
-  Restaurant.find({ borough: 'Bronx' }, function(err, restaurants) {
-    if (err) res.status(500).json(err);
-    res.json(restaurants);
-  });
+  Restaurant.find({ borough: 'Bronx' })
+    .exec(function(err, restaurants) {
+      if (err) res.status(500).json(err);
+      res.json(restaurants);
+    });
 
 }
 
 
 exercises[6] = function(req, res) {
 
-  Restaurant.find({ borough: 'Bronx' }).limit(5).exec(function(err, restaurants) {
-    if (err) res.status(500).json(err);
-    res.json(restaurants);
-  });
+  Restaurant.find({ borough: 'Bronx' })
+    .limit(5)
+    .exec(function(err, restaurants) {
+      if (err) res.status(500).json(err);
+      res.json(restaurants);
+    });
 
 }
 
