@@ -42,8 +42,8 @@ The example document above might live in a collection simply called `Restaurants
 
 In your terminal execute the following commands:
 ```bash
-git clone https://github.com/peterbsmith2/learning_mongo.git
-cd learning_mongo
+git clone https://github.com/peterbsmith2/learn-mongo.git
+cd learn-mongo
 git checkout exercise
 npm i
 ```
